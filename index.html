@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MiniMercado Online</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+        }
+        header {
+            background-color: #28a745;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            background-color: #218838;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-size: 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 1rem;
+        }
+        .intro {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .categories {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            justify-content: center;
+        }
+        .category {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 1rem;
+            background-color: white;
+            width: 250px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .category img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        .category h3 {
+            font-size: 1.2rem;
+            color: #28a745;
+            margin: 0.5rem 0;
+        }
+        footer {
+            background-color: #28a745;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bem-vindo ao MiniMercado Online</h1>
+    <p>Os melhores produtos ao seu alcance, com serviços de entrega e retirada no local!</p>
+</header>
+
+<nav>
+    <a href="#frutas-verduras">Frutas e Verduras</a>
+    <a href="#alimenticios">Alimentícios Não Perecíveis</a>
+    <a href="#higiene-limpeza">Higiene e Limpeza</a>
+</nav>
+
+<main>
+    <div class="intro">
+        <h2>Nossas Categorias</h2>
+        <p>Escolha uma categoria para explorar nossos produtos.</p>
+    </div>
+
+    <div class="categories">
+        <div class="category" id="frutas-verduras">
+            <img src="exemplo-frutas.jpg" alt="Frutas e Verduras">
+            <h3>Frutas e Verduras</h3>
+            <p>Produtos frescos direto do campo.</p>
+        </div>
+
+        <div class="category" id="alimenticios">
+            <img src="exemplo-alimenticios.jpg" alt="Produtos Alimentícios Não Perecíveis">
+            <h3>Alimentícios Não Perecíveis</h3>
+            <p>Alimentos de longa duração com qualidade garantida.</p>
+        </div>
+
+        <div class="category" id="higiene-limpeza">
+            <img src="exemplo-higiene.jpg" alt="Produtos de Higiene e Limpeza">
+            <h3>Higiene e Limpeza</h3>
+            <p>Para sua casa sempre limpa e organizada.</p>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2024 MiniMercado Online</p>
+    <p>Entrega rápida e retirada prática. Compre conosco!</p>
+</footer>
+
+</body>
+</html>
+
